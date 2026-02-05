@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/ArjanHayre/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arjan Singh Hayre | Software Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="/ArjanHayre/assets/index-BfH08fHV.js"></script>
+    <link rel="stylesheet" crossorigin href="/ArjanHayre/assets/index-DfvFQ6O1.css">
+  </head>
+  <body>
+    <div class="stick-figure-bg" id="stick-figure-bg" aria-hidden="true">
+      <div class="stick-figure-wrapper" id="stick-figure-wrapper">
+        <img class="stick-figure-sprite" id="stick-figure-img" alt="" width="48" height="60" />
+        <svg class="stick-figure-svg" viewBox="0 0 40 70" xmlns="http://www.w3.org/2000/svg">
+          <g class="figure-body" id="figure-body">
+            <!-- Henry Stickmin style: white oval head, black outline -->
+            <circle class="figure-head" cx="20" cy="8" r="6" />
+            <line class="figure-torso" x1="20" y1="14" x2="20" y2="42" />
+            <g class="figure-arm figure-arm-left" transform="translate(20, 18)">
+              <line class="figure-limb" x1="0" y1="0" x2="-12" y2="10" />
+              <circle class="figure-hand" cx="-12" cy="10" r="3" />
+            </g>
+            <g class="figure-arm figure-arm-right" transform="translate(20, 18)">
+              <line class="figure-limb" x1="0" y1="0" x2="12" y2="10" />
+              <circle class="figure-hand" cx="12" cy="10" r="3" />
+            </g>
+            <g class="figure-leg figure-leg-left" transform="translate(20, 42)">
+              <line class="figure-limb" x1="0" y1="0" x2="-8" y2="28" />
+              <ellipse class="figure-shoe" cx="-8" cy="28" rx="5" ry="3" />
+            </g>
+            <g class="figure-leg figure-leg-right" transform="translate(20, 42)">
+              <line class="figure-limb" x1="0" y1="0" x2="8" y2="28" />
+              <ellipse class="figure-shoe" cx="8" cy="28" rx="5" ry="3" />
+            </g>
+          </g>
+        </svg>
+      </div>
+    </div>
+    <nav class="nav" id="nav" role="navigation">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo">AH</a>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li class="nav-actions">
+            <button type="button" class="theme-toggle" id="theme-toggle" aria-label="Toggle light/dark theme">Theme</button>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <main>
+      <section id="hero" class="section hero" data-animate>
+        <div class="hero-bg" aria-hidden="true">
+          <div class="hero-bg-slide hero-bg-slide--1"></div>
+          <div class="hero-bg-slide hero-bg-slide--2"></div>
+          <div class="hero-bg-slide hero-bg-slide--3"></div>
+          <div class="hero-bg-slide hero-bg-slide--4"></div>
+          <div class="hero-bg-overlay"></div>
+        </div>
+        <div class="container hero-content">
+          <p class="hero-prompt">&gt; whoami</p>
+          <h1 class="hero-title"><span id="hero-name">Arjan Hayre</span></h1>
+          <p class="hero-subtitle" id="hero-subtitle">Full-Stack &amp; Backend Engineer · Distributed Systems · ML</p>
+          <a href="#projects" class="btn btn-primary">View my work</a>
+        </div>
+      </section>
+
+      <section id="about" class="section about" data-animate>
+        <div class="container">
+          <h2 class="section-title">About</h2>
+          <div class="about-content">
+            <p class="about-text">
+              Full-stack and backend engineer with experience in distributed systems, microservices, and applied machine learning. I&apos;ve delivered production workflows, backend services, and real-time data tools across multiple internships, with a strong grounding in C++ systems programming through academic work on concurrency, memory management, and low-level optimisation.
+            </p>
+            <p class="about-text">
+              Based in London. MEng/BEng Electronics and Information Engineering at Imperial College London (2022–2026).
+            </p>
+            <a href="ArjanHayreCV.pdf" class="btn btn-secondary" download>Download CV</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills" data-animate>
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-grid" id="skills-grid">
+            <!-- Filled by main.js from skills.json -->
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section projects" data-animate>
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <div class="project-filters" id="project-filters" aria-label="Filter projects by tag">
+            <!-- Filled by main.js -->
+          </div>
+          <div class="projects-grid" id="projects-grid">
+            <!-- Filled by main.js from projects.json -->
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section contact" data-animate>
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <p class="contact-text">Get in touch — open to roles and collaborations.</p>
+          <div class="contact-links">
+            <a href="mailto:arjanh6@gmail.com" class="contact-link" id="contact-email">Email</a>
+            <a href="tel:+447360185965" class="contact-link">Phone</a>
+            <a href="https://github.com/The-Asgardian" target="_blank" rel="noopener noreferrer" class="contact-link">GitHub</a>
+            <a href="https://linkedin.com/in/arjan-hayre" target="_blank" rel="noopener noreferrer" class="contact-link" id="contact-linkedin">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> Arjan Singh Hayre. Built with Vite.</p>
+      </div>
+    </footer>
+
+    <button type="button" class="back-to-top" id="back-to-top" aria-label="Back to top">↑</button>
+
+  </body>
+</html>
