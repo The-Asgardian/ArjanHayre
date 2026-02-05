@@ -1,0 +1,8 @@
+[
+  { "name": "Full Stack", "shortDescription": "React, Node.js, Spring Boot, microservices, REST APIs.", "icon": "⚡", "category": "fullstack" },
+  { "name": "Backend & Systems", "shortDescription": "C++, Go, concurrency, memory management, low-level optimisation.", "icon": "🔧", "category": "backend" },
+  { "name": "Databases", "shortDescription": "PostgreSQL, MongoDB, SQLite; schema design, query optimisation.", "icon": "🗄️", "category": "data" },
+  { "name": "ML/AI", "shortDescription": "PyTorch, TensorFlow, LLM tooling (RAG, LoRA, llama.cpp).", "icon": "🤖", "category": "aiml" },
+  { "name": "Security", "shortDescription": "OAuth2, JWT, RBAC, bcrypt, rate limiting; Wireshark, OWASP ZAP.", "icon": "🔒", "category": "security" },
+  { "name": "DevOps & Tools", "shortDescription": "Docker, Kafka, Redis; CI/CD and production workflows.", "icon": "🚀", "category": "devops" }
+]

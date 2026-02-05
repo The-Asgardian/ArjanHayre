@@ -1,0 +1,74 @@
+[
+  {
+    "title": "WeBook — Booking & reservation workflows",
+    "description": "Built booking and reservation workflows using Camunda BPMN and Spring Boot microservices at Xcceler8 (client: WeBook). Supported a service handling hundreds of thousands of HTTP requests per day; introduced Redis caching and PostgreSQL schema design, cutting median API response time from ~180 ms to ~95 ms under peak load. Extended API gateway with rate limiting and request validation.",
+    "tags": ["Spring Boot", "Camunda", "PostgreSQL", "Redis", "Microservices"],
+    "image": "https://mir-s3-cdn-cf.behance.net/projects/404/442968232076633.68960894a4f02.jpg",
+    "liveUrl": "",
+    "repoUrl": "",
+    "category": "fullstack"
+  },
+  {
+    "title": "RBAC & admin dashboard",
+    "description": "At Xcceler8: integrated Firebase Authentication and Firestore with backend services, implementing OAuth2/JWT flows and improving login stability across thousands of daily users. Developed RBAC and access-control modules; built internal admin dashboard components with React and Material UI for support teams.",
+    "tags": ["React", "Firebase", "OAuth2", "JWT", "RBAC"],
+    "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=640&q=80",
+    "liveUrl": "",
+    "repoUrl": "",
+    "category": "fullstack"
+  },
+  {
+    "title": "Property valuation & VAT automation",
+    "description": "At Dorchester Homes: built a property-valuation assistant using Python regression models on historical sales data, and a project-tracking and VAT automation dashboard used by operations staff. Optimised SQLite schema and queries — improved report generation from 2.1 s to 0.7 s under typical load.",
+    "tags": ["Python", "SQLite", "Regression", "Dashboard"],
+    "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=640&q=80",
+    "liveUrl": "",
+    "repoUrl": "",
+    "category": "backend"
+  },
+  {
+    "title": "Multiplayer racing game (UE5)",
+    "description": "Multiplayer racing game built in Unreal Engine 5 with a custom hardware controller: an FPGA-based gyroscope and accelerometer used as the steering/input device, bridging embedded systems and real-time game networking.",
+    "tags": ["Unreal Engine 5", "C++", "FPGA", "Multiplayer", "Embedded"],
+    "image": "https://cms-assets.unrealengine.com/AiKUh5PQCTaOFnmJDZJBfz/resize=width:1200/zfDcfWaTnKClFeBUvkD9",
+    "liveUrl": "",
+    "repoUrl": "",
+    "category": "gamedev"
+  },
+  {
+    "title": "Chess Bot AI",
+    "description": "A chess-playing AI that evaluates positions and selects moves. Implements search, evaluation heuristics, and optionally engine integration to play against users or analyse games.",
+    "tags": ["AI", "Chess", "Algorithms", "Python"],
+    "image": "https://images.unsplash.com/photo-1529699211952-734e80c4d42b?w=640&q=80",
+    "liveUrl": "",
+    "repoUrl": "",
+    "category": "aiml"
+  },
+  {
+    "title": "Smart ML wristwatch",
+    "description": "A wrist-worn device that uses machine learning to detect hand movements and gestures. Controls smart home devices (lights, blinds, etc.) over the internet via MQTT, enabling hands-free home automation.",
+    "tags": ["ML", "Embedded", "MQTT", "IoT", "Smart Home"],
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=640&q=80",
+    "liveUrl": "",
+    "repoUrl": "",
+    "category": "aiml"
+  },
+  {
+    "title": "Action RPG with local LLM (UE5)",
+    "description": "Action RPG in Unreal Engine 5 that uses a local large language model for dynamic NPC dialogue and procedural quest generation, giving each playthrough unique conversations and objectives without cloud APIs.",
+    "tags": ["Unreal Engine 5", "LLM", "NPC Dialogue", "Quest Generation", "C++"],
+    "image": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?w=640&q=80",
+    "liveUrl": "",
+    "repoUrl": "",
+    "category": "gamedev"
+  },
+  {
+    "title": "Construction & business project management app",
+    "description": "Unified platform connecting projects, invoices, quotes, documents, and banking for construction and business workflows. Delivers seamless integration, automation, and data analysis to streamline operations and reporting.",
+    "tags": ["Full Stack", "Business Logic", "Automation", "Data Analysis", "Integrations"],
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=640&q=80",
+    "liveUrl": "",
+    "repoUrl": "",
+    "category": "fullstack"
+  }
+]
