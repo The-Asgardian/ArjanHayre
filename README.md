@@ -32,8 +32,5 @@ Opens the built site with base path `/ArjanHayre/` so you can verify links and a
 
 ## Deploy
 
-1. Push to `main`. The workflow builds and pushes `dist/` to the `gh-pages` branch via [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages).
-2. In the repo: **Settings → Pages → Build and deployment → Source**: choose **Deploy from a branch**.
-3. **Branch**: select **`gh-pages`**, folder **/ (root)**. Save. The site will be at **https://the-asgardian.github.io/ArjanHayre/**.
-
-**If the site looks broken** (no styles, empty Skills/Projects): GitHub Pages is probably still set to the `main` branch. It must use **`gh-pages`** so the *built* site (with CSS/JS) is served, not the raw source.
+1. In the repo: **Settings → Pages → Build and deployment → Source**: choose **GitHub Actions**.
+2. Push to `main`. The workflow builds `dist/`, uploads it as an artifact, and deploys via `actions/deploy-pages`. The site will be at **https://the-asgardian.github.io/ArjanHayre/**.
